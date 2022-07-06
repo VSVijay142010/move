@@ -11,7 +11,7 @@ os.path.exists("C:/Users/mrvsv/vijay")
 import shutil
 source="C:/Users/mrvsv/Downloads/heic_10690.heic"
 destination="C:/Users/mrvsv/OneDrive/Documents/img"
-shutil.copy(source,destination)
-dest=shutil.copy(source,destination)
-print("After copying file")
+shutil.move(source,destination)
+dest=shutil.move(source,destination)
+print("After moving file")
 print(os.listdir(path))
